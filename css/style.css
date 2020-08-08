@@ -1,0 +1,42 @@
+html {scroll-behavior: smooth;}
+body {
+	color:#4C4C4C;
+	font-family:Roboto, Arial, sans-serif;
+	position:relative;
+}
+.header {
+	margin-top:-10px;
+	padding: 0 50px;
+	height:64px;
+	line-height:64px;
+}
+.header img {vertical-align:middle;}
+
+.header .menu {
+	float:right;
+	font-size: 18px;
+}
+.header .menu a, .enter {
+	margin-left:50px;
+	color: #333333;	
+	text-decoration:none;
+}
+.header .menu .enter{
+	padding: 10px 30px;
+	width: 30px;
+	box-sizing: border-box;
+	border: 1px solid #333333;
+	border-radius: 20px;
+}
+.header .menu .enter:hover{
+	background: linear-gradient(82.76deg, #333333 9.37%, #666666 88.91%);
+	color:white;
+}
+@media screen and (max-width: 880px) {
+	.header .menu {
+	    font-size: 16px;
+	}
+	.header .menu a {
+		margin-left:15px;
+	}
+}
