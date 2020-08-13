@@ -299,9 +299,80 @@ line-height: 28px;
     justify-content: space-around;
     width: 20%-20%;
 }
+.zap {
+    background:linear-gradient(90deg, #FCCB21 0%, #FF8516 100%);;	
+}
+.zap .wrapper {
+    padding-top:30px;
+    margin-bottom: -30px;
+}
+.zap .items {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.zap a{
+    color:white;
+    margin-top:10px;
+    position: relative;
+    text-decoration: none;
+}
+.zap .items .item {
+    text-align: center;
+    left: 10%;
+    border-radius: 30px;
+    width:550px;
+    height: 240px;
+    position:relative;
+    margin-bottom:65px;
+    background: white;
+}
+.zap .items .item h1{
+	position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+.zap .wrapper .lower{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    bottom: 150px;
+}
+.zap .wrapper .lowlower{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    bottom: 150px;
+}
+.zap button{
+    border:none;
+    position: relative;
+    color:white;  
+    font-size: 24px;
+    line-height: 28px;
+    background: linear-gradient(90deg, #333333 0%, #444444 100%);
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+}
 .reg {background: linear-gradient(177.86deg, #FCCB21 1.72%, #FF8516 98.2%);}
-
+.reg h1{
+    position: relative;
+    top:100px;
+    color:white;
+    text-align: center;
+}
 	.reg .wrapper {
+        padding-top: 50px;
 		display:flex;
 		justify-content:center;
 		width:100%;
@@ -312,7 +383,7 @@ line-height: 28px;
         height: 100%;
         margin-top: 50px;
         margin-bottom: 50px;
-		width:40%; 
+		width:600px; 
         background-color: white;
 	}
 	
@@ -333,7 +404,7 @@ line-height: 28px;
 			padding:20px 30px;
 			text-transform:uppercase;
 			margin-bottom:13px;
-			width:40%;
+			width:55%;
 		}
 		.reg input:hover:not(.button) {
 			border: 1px solid #02A3FF;
@@ -343,6 +414,9 @@ line-height: 28px;
 			outline: #02A3FF auto 1px;
 		}
 			.reg .button {
+                border:none;
+                margin-left: -260px;
+                margin-top: 90px;
                 color:white;
                 width: 150px;
                 position: absolute;
