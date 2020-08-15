@@ -252,6 +252,12 @@ line-height: 28px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
+.pluses .hh{
+	position: relative;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+}
 .pluses .wrapper h1{
     position: relative;
     left:45%;
@@ -261,8 +267,8 @@ line-height: 28px;
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 48px;
-line-height: 56px;
+font-size: 24px;
+line-height: 36px;
     position: relative;
     bottom:-10px;
 }
@@ -276,8 +282,8 @@ line-height: 56px;
     font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 28px;
+font-size: 15px;
+line-height: 24px;
 }
 .pluses .wrapper .item h3{
     text-align: right;
@@ -298,6 +304,11 @@ line-height: 28px;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 20%-20%;
+}
+@media screen and(max-width: 1400px){
+	.pluses .wrapper{
+		display:none;
+	}
 }
 .zap {
     background:linear-gradient(90deg, #FCCB21 0%, #FF8516 100%);;	
