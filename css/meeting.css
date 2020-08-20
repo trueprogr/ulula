@@ -1,0 +1,145 @@
+html {scroll-behavior: smooth;}
+body {
+	color:#4C4C4C;
+	font-family:Roboto, Arial, sans-serif;
+	position:relative;
+}
+.header {
+	width: 100%;
+	margin-top:-10px;
+	height:64px;
+	line-height:64px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.header .wrapper{
+	padding: 0 50px;
+}
+.header img {vertical-align:middle;}
+
+.header .menu {
+	float:right;
+	font-size: 18px;
+}
+.header .menu a, .enter {
+	margin-left:50px;
+	padding-right: 50px;
+	color: #333333;	
+	text-decoration:none;
+}
+.header .menu .enter{
+	padding: 10px 30px;
+	width: 30px;
+	box-sizing: border-box;
+	border: 1px solid #333333;
+	border-radius: 20px;
+}
+.header .menu .enter:hover{
+	background: linear-gradient(82.76deg, #333333 9.37%, #666666 88.91%);
+	color:white;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 880px) {
+	.header .menu {
+	    font-size: 16px;
+	}
+	.header .menu a {
+		margin-left:15px;
+	}
+}
+.textupper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around
+}
+.textupper h5{
+	position: relative;
+	top:20px;
+}
+.textlower{
+	width: 100%;
+}
+.textlower .upperwrapper{
+	width: 100%;
+	position: relative;
+	color:#BDBDBD;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.textlower .lowerwrapper{
+	margin-top: -30px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.zoom img{
+	top:100px;
+	left:40%;
+	position: relative;
+}
+.zoom a{
+	position: relative;
+	left:22.6%;
+	top:150px;
+	color:white;
+	text-decoration: none;
+	padding: 10px 50px;
+	background-color: #FCC220;
+	border-width: 10px;
+	border-radius: 10px;
+}
+.quest{
+	padding-left: 11.5%;
+	width: 80%;
+	top:200px;
+	position: relative;
+}
+.quest h5{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+}
+.quest a{
+	position: relative;
+	top:10px;
+	color:white;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #FCC220;
+	border-width: 10px;
+	border-radius: 10px;
+}
+.feedback{
+	padding-left: 11.5%;
+	position: relative;
+	top:230px;
+	width: 77%;
+	padding-bottom: 100px;
+}
+.feedback h3{
+	color:#BDBDBD;
+}
+.feedback textarea{
+	width: 100%;
+	border-radius: 10px;
+	height: 150px;
+	border-width: 1px;
+	resize: none;
+}
+.feedback button{
+	position: relative;
+	top:10px;
+	background-color: #FCC220;
+	color:white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FCC220;
+	border-width: 1px;
+	border-radius: 10px;
+}
