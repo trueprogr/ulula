@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ulula</title>
+	<link rel="stylesheet" href="css/registration.css">
+</head>
+<body>
+<div class="reg">
+	<i class="fal fa-exclamation-circle"></i>
+	<h1>Зарегистрироваться</h1>
+	<div class="wrapper">
+		<div class="form-area">
+			<form name="regform" method="get" action="">
+				<div class="d-flex">
+					<p>Имя</p>
+					<div class="error">
+						<img src="img/error.png" style="height: 20px;">
+						<p>Заполните поле</p>
+					</div>
+				</div>
+				<input type="text" name="name" placeholder="" class="text" />
+				<div class="d-flex">
+					<p>Фамилия</p>
+					<!-- <div class="error">
+						<img src="img/error.png" style="height: 20px;">
+						<p>Заполните поле</p>
+					</div> -->
+				</div>
+				<input type="text" name="surname" placeholder="" class="text"/>
+				<div class="d-flex">
+					<p>E-mail</p>
+					<!-- <div class="error">
+						<img src="img/error.png" style="height: 20px;">
+						<p>Заполните поле</p>
+					</div> -->
+				</div>
+				<input type="email" name="email" placeholder="" class="text"/>
+				<div class="d-flex">
+					<p>Пароль</p>
+					<!-- <div class="error">
+						<img src="img/error.png" style="height: 20px;">
+						<p>Заполните поле</p>
+					</div> -->
+				</div>
+				<input type="password" name="password" placeholder=""  class="text"/>
+				<div class="d-flex">
+					<p>Повторите пароль</p>
+					<!-- <div class="error">
+						<img src="img/error.png" style="height: 20px;">
+						<p>Пароли не совпадают</p>
+					</div> -->
+				</div>
+				<input type="password" name="password2" placeholder=""  class="text"/>
+				<div class="d-flex">
+					<p>Укажите формулу</p>
+					<!-- <div class="error">
+						<img src="img/error.png" style="height: 20px;">
+						<p>Выберите вариант</p>
+					</div> -->
+				</div>
+				<div class="radio-area">
+					<input type="radio" name="pupilorteacher" value="male" />Ученик
+    				<input type="radio" name="pupilorteacher" value="female" />Преподаватель
+				</div>
+				<input type="submit" value="Регистрация"/>
+				<div class="terms">
+					<p>Регистрируясь, вы принимаете условия <a href="">пользовательского соглашения</a></p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="text-center">
+		<p>У вас уже есть аккаунт? <a href=""><b>Войти</b></a></p>
+	</div>
+</div>
+</body>
+</html>
